@@ -1,0 +1,38 @@
+/*.btn-primary {
+  display: inline-block;
+  background-color: #1EDD88;
+  padding: 16px 36px;
+  border-radius: 50px;
+  color: white;
+}
+
+.btn-secondary {
+  border: 1px solid #1EDD88;
+  padding: 8px 16px;
+  border-radius: 50px;
+  color: #1EDD88;
+}*/
+
+.btn-ghost {
+  color: black;
+  border: 2px solid black;
+  padding: 8px 24px;
+  border-radius: 60px;
+  font-weight: lighter;
+  opacity: 0.6;
+  background-color: rgba(255, 255, 255, 0.6);
+  transition: opacity 0.3s ease;
+  display: inline-block;
+  height: 30px;
+  width: 100px;
+  text-align: center;
+}
+
+.btn-ghost:hover {
+  opacity: 1;
+  background-color: rgba(255, 255, 255, 0.5);
+  border: 2px solid rgba(255, 49, 5, 0.5);
+  color: black;
+  transform: scale(1.03);
+  text-shadow: 0 0 2px rgba(255, 255, 255, 0.5);
+}

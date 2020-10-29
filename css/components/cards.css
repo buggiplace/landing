@@ -1,0 +1,35 @@
+.card img {
+  height: 120px;
+  object-fit: cover;
+  width: 100%
+}
+
+.card p {
+  opacity: .5;
+}
+
+.card {
+  width: 250px;
+  border-radius: 3px;
+  box-shadow: 0 0 5px rgb(230,230,230);
+  text-align: center;
+  padding: 20px;
+  border: 1px solid rgb(230,230,230);
+  object-fit: cover;
+ /* position: relative;*/
+  margin: 10px;
+  transition-duration: 0.2s;
+  filter: grayscale(100%);
+}
+
+.cards {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+
+.card:hover {
+  transform: scale(1.1);
+  background: rgba(255, 49, 5, 0.1);
+  filter: grayscale(0%);
+}
